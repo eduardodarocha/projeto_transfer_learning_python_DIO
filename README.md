@@ -16,14 +16,22 @@ This project uses a deep learning model to classify images of cats and dogs. It 
 
 This project implements a binary image classifier to distinguish between cats and dogs. The model is built using transfer learning, which allows for high performance without requiring a massive dataset or extensive training time from scratch.
 
-### Built With
+### Libraries Used
 
-*   Python
-*   Google Colaboratory
-*   TensorFlow / Keras
-*   Scikit-learn
-*   NumPy
-*   Matplotlib
+*   **pandas:** For data manipulation and analysis.
+*   **numpy:** For numerical operations.
+*   **os:** For interacting with the operating system.
+*   **keras:** The high-level neural networks API.
+*   **matplotlib.pyplot:** For creating static, animated, and interactive visualizations.
+*   **keras.layers.Dense:** For creating densely-connected NN layers.
+*   **keras.layers.GlobalAveragePooling2D:** For global average pooling operation for spatial data.
+*   **keras.applications.MobileNet:** The MobileNet model for transfer learning.
+*   **keras.preprocessing.image:** For image preprocessing.
+*   **keras.applications.mobilenet.preprocess_input:** For preprocessing input for the MobileNet model.
+*   **tensorflow.keras.preprocessing.image.ImageDataGenerator:** For generating batches of tensor image data with real-time data augmentation.
+*   **keras.models.Model:** The `Model` class used to create a Keras model.
+*   **keras.optimizers.Adam:** The Adam optimizer.
+*   **keras.layers.Dropout:** For adding dropout regularization.
 
 ## Getting Started
 
